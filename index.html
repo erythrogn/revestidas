@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Revestidas | Conferência de Mulheres 2026</title>
+  <meta name="description" content="Conferência Revestidas — um encontro para mulheres que querem viver identidade, propósito e presença real em Deus. São Paulo, Maio 2026.">
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,269 +12,285 @@
 </head>
 <body>
 
-  <!-- ========== HEADER / NAV ========== -->
-  <header class="site-header">
-    <div class="header-inner">
-      <a href="#" class="logo">Revestidas</a>
-      <a href="#inscricao" class="btn btn-primary btn-sm header-cta">Garantir minha vaga</a>
+  <header class="header" role="banner">
+    <div class="header__inner">
+      <a href="#" class="header__logo" aria-label="Revestidas — página inicial">Revestidas</a>
+      <a href="#inscricao" class="btn btn--primary btn--sm header__cta">Garantir minha vaga</a>
     </div>
   </header>
 
-  <!-- ========== HERO SECTION ========== -->
-  <section class="hero" id="hero">
-    <div class="hero-overlay"></div>
-    <div class="hero-content">
-      <span class="hero-tag animate-fade-up">Conferência de Mulheres &mdash; 2026</span>
-      <h1 class="hero-title animate-fade-up delay-1">
+  <section class="hero" id="hero" aria-label="Apresentação da conferência">
+    <div class="hero__overlay" aria-hidden="true"></div>
+    <div class="hero__content">
+      <span class="hero__tag reveal reveal--up">Conferência de Mulheres &mdash; 2026</span>
+      <h1 class="hero__title reveal reveal--up d1">
         Você não precisa de mais um evento.<br>
-        <span class="hero-highlight">Você precisa ser Revestida<br>da Palavra de Deus.</span>
+        <strong class="hero__title-bold">Você precisa ser revestida<br>da Palavra de Deus.</strong>
       </h1>
-      <p class="hero-subtitle animate-fade-up delay-2">Uma conferência para mulheres que querem viver identidade, propósito e presença real em Deus.</p>
-      <div class="hero-actions animate-fade-up delay-3">
-        <a href="#inscricao" class="btn btn-outline-light">Entre na Comunidade</a>
-        <a href="#inscricao" class="btn btn-primary">Garantir minha vaga</a>
+      <p class="hero__sub reveal reveal--up d2">
+        Uma tarde para mulheres que desejam silenciar as vozes do mundo<br>
+        e viver a verdade de Deus sobre quem são.
+      </p>
+      <div class="hero__actions reveal reveal--up d3">
+        <a href="#inscricao" class="btn btn--primary btn--lg">Garantir minha vaga</a>
       </div>
-      <div class="hero-dates animate-fade-up delay-4">
-        <div class="hero-date-item">
-          <svg class="icon-calendar" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-          <span>09 de Maio às 15h &bull; R. Vilela, 892 &mdash; Tatuapé</span>
-        </div>
-        <div class="hero-date-item">
-          <svg class="icon-calendar" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-          <span>16 de Maio às 15h &bull; Nikkey Palace Hotel, R. Galvão Bueno, 425 &mdash; Liberdade</span>
-        </div>
+      <div class="hero__dates reveal reveal--up d4">
+        <p class="hero__date">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          09 de Maio às 15h &bull; R. Vilela, 892 &mdash; Tatuapé
+        </p>
+        <p class="hero__date">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          16 de Maio às 15h &bull; Nikkey Palace Hotel, R. Galvão Bueno, 425 &mdash; Liberdade
+        </p>
       </div>
-    </div>
-    <div class="hero-scroll-indicator">
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
     </div>
   </section>
 
-  <!-- ========== SEÇÃO 2 - PROPÓSITO ========== -->
- <section class="section-purpose" id="proposito">
-  <div class="purpose-container">
-    <div class="purpose-text">
-      <h2 class="section-title-light">Por que fazemos a<br>conferência de mulheres?</h2>
-      <p class="purpose-body">
-        A Conferência Revestidas não é apenas um encontro de mulheres, é um momento com propósito. 
-        Um tempo separado onde nos reunimos diante de Deus para ouvir aquilo que a Palavra está nos falando 
-        e viver o que ela nos chama a vestir.
-      </p>
-    </div>
-    
-    <div class="purpose-image">
-      <img src="img/pq1.png" alt="Conferência Revestidas" class="img-fluid">
-    </div>
-  </div>
+  <main>
 
-  <div class="purpose-quote-block">
-    <blockquote class="purpose-quote">
-      <p>&ldquo;Portanto [...] revistam-se de profunda compaixão, bondade, humildade, mansidão e paciência.&rdquo;</p>
-      <cite>&mdash; Colossenses 3:12</cite>
-    </blockquote>
-  </div>
-</section>
-  <!-- ========== SEÇÃO 3 - ALINHAMENTO ========== -->
-  <section class="section-alignment" id="alinhamento">
-    <div class="alignment-container">
-      <div class="alignment-image">
-        <img src="img/pq2.png" alt="Alinhamento e Propósito" class="img-reveal">
+    <section class="purpose" id="proposito" aria-labelledby="purpose-title">
+      <div class="purpose__grid">
+        <div class="purpose__text">
+          <h2 class="purpose__title scroll-reveal scroll-reveal--up" id="purpose-title" style="--delay: 0s">Por que fazemos a<br>conferência de mulheres?</h2>
+          <p class="purpose__body scroll-reveal scroll-reveal--up" style="--delay: 0.3s">
+            A Conferência Revestidas <strong>não é apenas um encontro de mulheres.</strong><br>
+            <strong>É um momento com propósito.</strong>
+          </p>
+          <p class="purpose__body scroll-reveal scroll-reveal--up" style="--delay: 0.6s">
+            Um tempo separado onde nos reunimos diante de Deus<br>
+            para ouvir aquilo que a Palavra está nos chamando a viver.
+          </p>
+        </div>
+        <div class="purpose__img scroll-reveal scroll-reveal--right" style="--delay: 0.3s">
+          <img src="img/pq1.png" alt="Mulheres reunidas durante a Conferência Revestidas" loading="lazy" width="480" height="420">
+        </div>
+      </div>
+      <div class="purpose__quote scroll-reveal scroll-reveal--up" style="--delay: 0s">
+        <blockquote>
+          <p>&ldquo;Portanto [...] revistam-se de profunda compaixão, bondade, humildade, mansidão e paciência.&rdquo;</p>
+          <cite>&mdash; Colossenses 3:12</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="alignment" id="alinhamento" aria-labelledby="alignment-heading">
+      <h2 class="sr-only" id="alignment-heading">Alinhamento e propósito</h2>
+      <div class="alignment__grid">
+        <div class="alignment__img scroll-reveal scroll-reveal--left" style="--delay: 0s">
+          <img src="img/pq2.png" alt="Mulher em momento de reflexão e adoração" loading="lazy" width="440" height="420">
+        </div>
+        <div class="alignment__text">
+          <p class="scroll-reveal scroll-reveal--up" style="--delay: 0s">
+            Somos chamadas a nos revestir — não de opiniões ou das vozes do mundo,<br>
+            mas das virtudes da Palavra.
+          </p>
+          <p class="alignment__highlight scroll-reveal scroll-reveal--up" style="--delay: 0.2s">
+            <strong>Revestir-se não é automático.</strong>
+          </p>
+          <p class="scroll-reveal scroll-reveal--up" style="--delay: 0.4s">
+            É uma decisão diária, alinhada com aquilo que Deus já revelou.
+          </p>
+          <p class="scroll-reveal scroll-reveal--up" style="--delay: 0.6s">
+            Afinal, existem momentos em que Deus não apenas consola —<br>
+            Ele alinha, confronta e reposiciona.
+          </p>
+          <p class="scroll-reveal scroll-reveal--up" style="--delay: 0.8s">
+            Não se trata de participar de mais um evento,<br>
+            mas de não continuar vivendo desalinhada com o que já foi revelado.
+          </p>
+        </div>
+      </div>
+      <div class="alignment__closing scroll-reveal scroll-reveal--up" style="--delay: 0.3s">
+        <p>
+          Então, se você é uma mulher que entende que não dá mais para viver guiada por vozes externas,<br>
+          mas deseja ser revestida pela Palavra de Deus… <strong>esse encontro é para você.</strong>
+        </p>
+      </div>
+    </section>
+
+    <section class="transform" id="transformacao" aria-labelledby="transform-title">
+      <div class="transform__card scroll-reveal scroll-reveal--scale" style="--delay: 0s">
+        <h2 class="transform__title scroll-reveal scroll-reveal--up" id="transform-title" style="--delay: 0.3s">
+          Revestidas não é sobre só ouvir…<br>
+          <span>é sobre ser <strong>transformada.</strong></span>
+        </h2>
+        
+        <p class="transform__lead scroll-reveal scroll-reveal--up" style="--delay: 0.5s">Você vai:</p>
+        
+        <div class="transform__badges" role="list">
+          <span class="transform__badge scroll-reveal scroll-reveal--up" role="listitem" style="--delay: 0.6s">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            entender sua identidade
+          </span>
+          <span class="transform__badge scroll-reveal scroll-reveal--up" role="listitem" style="--delay: 0.9s">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            alinhar sua vida com Deus
+          </span>
+          <span class="transform__badge scroll-reveal scroll-reveal--up" role="listitem" style="--delay: 1.2s">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            viver conexões com mulheres no mesmo propósito
+          </span>
+        </div>
+
+        <div class="transform__actions scroll-reveal scroll-reveal--up" style="--delay: 1.5s">
+          <a href="#comunidade" class="btn btn--outline-light">Entre na Comunidade</a>
+          <a href="#inscricao" class="btn btn--white">Garantir <strong>minha vaga</strong></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience" id="experiencia" aria-labelledby="experience-title">
+      <div class="experience__top">
+        <h2 class="experience__title scroll-reveal scroll-reveal--up" id="experience-title" style="--delay: 0s">O que você<br>vai viver</h2>
+        
+        <ul class="experience__list" role="list">
+          <div class="experience__line scroll-reveal" style="--delay: 1.2s" aria-hidden="true"></div>
+          
+          <li class="experience__item scroll-reveal scroll-reveal--right" style="--delay: 0s">
+            <span class="experience__dot" aria-hidden="true"></span>
+            Pregações baseadas na Palavra
+          </li>
+          <li class="experience__item scroll-reveal scroll-reveal--right" style="--delay: 0.3s">
+            <span class="experience__dot" aria-hidden="true"></span>
+            Direções que geram transformação real
+          </li>
+          <li class="experience__item scroll-reveal scroll-reveal--right" style="--delay: 0.6s">
+            <span class="experience__dot" aria-hidden="true"></span>
+            Ambientes de conexão verdadeira entre mulheres
+          </li>
+        </ul>
       </div>
       
-      <div class="alignment-text">
-        <p>Somos chamadas a nos revestir, não de opiniões ou das vozes do mundo, mas das virtudes da Palavra. Revestidas nasce para não vivermos no automático, mas sim de forma intencional, alinhadas com aquilo que Deus já nos revelou.</p>
-        <p class="alignment-highlight"><strong>Afinal, existem momentos em que Deus não apenas consola... Ele alinha, confronta e reposiciona.</strong></p>
-        <p>Não se trata de participar de mais um evento, mas de não continuar vivendo desalinhada com o que já foi falado sobre nós.</p>
+      <div class="experience__gallery">
+        <div class="experience__gal-item scroll-reveal scroll-reveal--up" style="--delay: 0s">
+          <img src="img/oqvvv2.png" alt="Grupo de mulheres em adoração e conexão" loading="lazy" width="380" height="480">
+        </div>
+        <div class="experience__gal-item scroll-reveal scroll-reveal--up" style="--delay: 0.3s">
+          <img src="img/oqvvv1.png" alt="Mulheres conversando e criando laços na conferência" loading="lazy" width="380" height="480">
+        </div>
+        <div class="experience__gal-item scroll-reveal scroll-reveal--up" style="--delay: 0.6s">
+          <img src="img/oqvvv3.png" alt="Ministração para um grupo de mulheres engajadas" loading="lazy" width="380" height="480">
+        </div>
       </div>
-    </div>
-    
-    <div class="alignment-closing">
-      <p>Então, se você é uma mulher que entende que não dá mais para viver guiada por vozes externas, mas deseja estar revestida da Palavra de Deus... <strong>esse encontro é para você.</strong></p>
-    </div>
-</section>
+    </section>
 
-  <!-- ========== SEÇÃO 4 - TRANSFORMAÇÃO (CARD) ========== -->
-  <section class="section-transform" id="transformacao">
-    <div class="transform-card">
-      <h2 class="transform-title">Revestidas não é sobre só ouvir...<br><span>é sobre ser <strong>transformada.</strong></span></h2>
-      <div class="transform-badges">
-        <span class="badge">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-          Você vai entender sua identidade.
-        </span>
-        <span class="badge">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-          Vai alinhar sua vida com Deus.
-        </span>
-        <span class="badge">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-          Vai sair com direção prática.
-        </span>
-        <span class="badge">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-          Vai se conectar com mulheres com o mesmo propósito.
-        </span>
+    <section class="community" id="comunidade" aria-labelledby="community-title">
+      <div class="community__inner">
+        <h2 class="community__title scroll-reveal scroll-reveal--up" id="community-title" style="--delay: 0s">Mais do que um evento &mdash; um caminho</h2>
+        
+        <p class="community__text scroll-reveal scroll-reveal--up" style="--delay: 0.2s">
+          A comunidade <strong>Fé na Prática</strong> é um espaço onde mulheres caminham juntas<br>
+          para viver a Palavra de Deus no dia a dia.
+        </p>
+        
+        <p class="community__text scroll-reveal scroll-reveal--up" style="--delay: 0.4s">
+          Aqui você não apenas ouve &mdash;<br>
+          você aplica, cresce e é acompanhada.
+        </p>
+        
+        <p class="community__highlight scroll-reveal scroll-reveal--up" style="--delay: 0.6s">
+          Porque transformação não acontece sozinha.
+        </p>
+        
+        <div class="community__action scroll-reveal scroll-reveal--up" style="--delay: 0.8s">
+          <a href="#" class="btn btn--primary btn--lg">Entrar na comunidade</a>
+        </div>
       </div>
-      <div class="transform-actions">
-        <a href="#" class="btn btn-outline-light">Entre na Comunidade</a>
-        <a href="#inscricao" class="btn btn-white">Garantir <strong>minha vaga</strong></a>
-      </div>
-      <div class="transform-dates-small">
-        <span>09 de Maio às 15h &bull; R. Vilela, 892 &mdash; Tatuapé</span>
-        <span>16 de Maio às 15h &bull; Nikkey Palace Hotel, R. Galvão Bueno, 425 &mdash; Liberdade</span>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ========== SEÇÃO 5 - O QUE VAI VIVER ========== -->
-  <section class="section-experience" id="experiencia">
-    <div class="experience-top">
-      <div class="experience-title-area">
-        <h2 class="experience-title">O que você<br>vai viver</h2>
-      </div>
-      <div class="experience-list">
-        <div class="experience-item">
-          <div class="experience-dot"></div>
-          <span>Ministrações profundas</span>
-        </div>
-        <div class="experience-item">
-          <div class="experience-dot"></div>
-          <span>Momentos de adoração</span>
-        </div>
-        <div class="experience-item">
-          <div class="experience-dot"></div>
-          <span>Experiências que marcam</span>
-        </div>
-        <div class="experience-item">
-          <div class="experience-dot"></div>
-          <span>Ambientes de conexão real</span>
-        </div>
-        <div class="experience-line"></div>
-      </div>
-    </div>
-    <div class="experience-gallery">
-  <div class="gallery-item gallery-item-1">
-    <img src="img/oqvvv1.png" alt="Ministrações" class="gallery-img">
-  </div>
-  <div class="gallery-item gallery-item-2">
-    <img src="img/oqvvv2.png" alt="Adoração" class="gallery-img">
-  </div>
-  <div class="gallery-item gallery-item-3">
-    <img src="img/oqvvv3.png" alt="Conexão" class="gallery-img">
-  </div>
-</div>
-  </section>
-
-  <!-- ========== SEÇÃO 6 - INSCRIÇÃO ========== -->
-  <section class="section-tickets" id="inscricao">
-    <div class="tickets-container">
-      <h2 class="tickets-title">Escolha o melhor dia, local e<br>horário <strong>para você</strong></h2>
-      <p class="tickets-subtitle">Todas as conferências acontecerão em São Paulo.</p>
-      <div class="tickets-grid">
-        <div class="ticket-card">
-          <span class="ticket-region">Região Leste e ABCD</span>
-          <div class="ticket-divider"></div>
-          <div class="ticket-info">
-            <div class="ticket-row">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-              <span>09.05 às 15h</span>
+    <section class="tickets" id="inscricao" aria-labelledby="tickets-title">
+      <div class="tickets__inner">
+        <h2 class="tickets__title scroll-reveal scroll-reveal--up" id="tickets-title" style="--delay: 0s">Escolha o melhor dia, local e<br>horário <strong>para você</strong></h2>
+        <p class="tickets__sub scroll-reveal scroll-reveal--up" style="--delay: 0.3s">Todas as conferências acontecerão em São Paulo.</p>
+        
+        <div class="tickets__grid">
+          <article class="ticket scroll-reveal scroll-reveal--up" style="--delay: 0s">
+            <span class="ticket__region">Região Leste e ABCD</span>
+            <hr class="ticket__divider" aria-hidden="true">
+            <div class="ticket__info">
+              <p class="ticket__row">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                09.05 às 15h
+              </p>
+              <p class="ticket__row">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                R. Vilela, 892 &mdash; Tatuapé
+              </p>
             </div>
-            <div class="ticket-row">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              <span>R. Vilela, 892 &mdash; Tatuapé</span>
+            <div class="ticket__price">
+              <span class="ticket__lot">Lote atual</span>
+              <span class="ticket__value">R$ ---</span>
             </div>
-          </div>
-          <div class="ticket-price-area">
-            <span class="ticket-lot">Lote atual</span>
-            <span class="ticket-price">R$ ---</span>
-          </div>
-          <a href="#" class="btn btn-primary btn-block">Garantir minha vaga
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-          </a>
-        </div>
-        <div class="ticket-card">
-          <span class="ticket-region">Região Sul e Oeste</span>
-          <div class="ticket-divider"></div>
-          <div class="ticket-info">
-            <div class="ticket-row">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-              <span>16.05 às 15h</span>
+            <a href="#" class="btn btn--primary btn--block">
+              Garantir minha vaga
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+          
+          <article class="ticket scroll-reveal scroll-reveal--up" style="--delay: 0.3s">
+            <span class="ticket__region">Região Sul e Oeste</span>
+            <hr class="ticket__divider" aria-hidden="true">
+            <div class="ticket__info">
+              <p class="ticket__row">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                16.05 às 15h
+              </p>
+              <p class="ticket__row">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                Nikkey Palace Hotel, R. Galvão Bueno, 425 &mdash; Liberdade
+              </p>
             </div>
-            <div class="ticket-row">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              <span>Nikkey Palace Hotel, R. Galvão Bueno, 425 &mdash; Liberdade</span>
+            <div class="ticket__price">
+              <span class="ticket__lot">Lote atual</span>
+              <span class="ticket__value">R$ ---</span>
             </div>
-          </div>
-          <div class="ticket-price-area">
-            <span class="ticket-lot">Lote atual</span>
-            <span class="ticket-price">R$ ---</span>
-          </div>
-          <a href="#" class="btn btn-primary btn-block">Garantir minha vaga
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-          </a>
+            <a href="#" class="btn btn--primary btn--block">
+              Garantir minha vaga
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ========== SEÇÃO 7 - FECHAMENTO / CTA FINAL ========== -->
-  <section class="section-closing" id="fechamento">
-    <div class="closing-overlay"></div>
-    <div class="closing-content">
-      <h2 class="closing-title">Esse não é só mais um evento.<br><span>É um chamado.</span></h2>
-      <p class="closing-text">As vagas são limitadas e os lotes estão virando com a proximidade da data.</p>
-      <a href="#inscricao" class="btn btn-primary btn-lg">
-        Garanta sua vaga agora
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-      </a>
-    </div>
-  </section>
+  </main>
 
-  <!-- ========== FOOTER ========== -->
-  <footer class="site-footer">
-    <div class="footer-inner">
-      <span class="footer-logo">Revestidas</span>
-      <span class="footer-copy">Conferência de Mulheres &mdash; São Paulo, 2026</span>
+  <footer class="footer" role="contentinfo">
+    <div class="footer__inner">
+      <span class="footer__logo scroll-reveal" style="--delay: 0s">Revestidas</span>
+      <small class="footer__copy scroll-reveal" style="--delay: 0.3s">Conferência de Mulheres &mdash; São Paulo, 2026</small>
     </div>
   </footer>
 
-  <!-- ========== SCROLL ANIMATION SCRIPT ========== -->
   <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const observerOptions = { threshold: 0.15, rootMargin: '0px 0px -40px 0px' };
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('is-visible');
-            observer.unobserve(entry.target);
-          }
-        });
-      }, observerOptions);
+    (function(){
+      /* Header scroll state */
+      var h=document.querySelector('.header');
+      window.addEventListener('scroll',function(){
+        h.classList.toggle('header--solid',window.scrollY>50);
+      },{passive:true});
 
-      document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
+      /* Scroll reveal via IntersectionObserver */
+      if('IntersectionObserver' in window){
+        var obs=new IntersectionObserver(function(entries){
+          entries.forEach(function(e){
+            if(e.isIntersecting){
+              e.target.classList.add('is-visible');
+              obs.unobserve(e.target);
+            }
+          });
+        },{threshold:0.1,rootMargin:'0px 0px -30px 0px'});
+        document.querySelectorAll('.scroll-reveal').forEach(function(el){obs.observe(el)});
+      } else {
+        document.querySelectorAll('.scroll-reveal').forEach(function(el){el.classList.add('is-visible')});
+      }
 
-      // Add animate-on-scroll to key elements
-      const selectors = [
-        '.purpose-text', '.purpose-image', '.purpose-quote-block',
-        '.alignment-image', '.alignment-text', '.alignment-closing',
-        '.transform-card',
-        '.experience-title-area', '.experience-list', '.gallery-item',
-        '.tickets-title', '.tickets-subtitle', '.ticket-card',
-        '.closing-content'
-      ];
-      selectors.forEach(sel => {
-        document.querySelectorAll(sel).forEach(el => {
-          el.classList.add('animate-on-scroll');
-          observer.observe(el);
-        });
+      /* Hero entrance — trigger CSS animations */
+      requestAnimationFrame(function(){
+        document.querySelectorAll('.reveal').forEach(function(el){el.classList.add('reveal--go')});
       });
-
-      // Header scroll effect
-      const header = document.querySelector('.site-header');
-      window.addEventListener('scroll', () => {
-        header.classList.toggle('scrolled', window.scrollY > 60);
-      });
-    });
+    })();
   </script>
 
 </body>
