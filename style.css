@@ -101,6 +101,7 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     justify-content: center;
     gap: 8px;
+    padding: 15px 32px; /* Adicionado padding base para evitar achatamento */
     font-family: var(--ff-body);
     font-weight: 700;
     font-size: var(--fs-xs);
@@ -127,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn--white {
     background-color: var(--white);
-    color: var(--wine);
+    color: var(--wine-dk);
 }
 .btn--white:hover {
     transform: translateY(-3px);
@@ -145,8 +146,8 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateY(-3px);
 }
 
-.btn--sm  { padding: 12px 28px; font-size: 0.72rem; }
-.btn--lg  { padding: 18px 52px; font-size: 0.8rem; }
+.btn--sm  { padding: 10px 22px; font-size: 0.7rem; }
+.btn--lg  { padding: 18px 48px; font-size: 0.8rem; }
 .btn--full, .btn--block { width: 100%; }
 
 /* ─── ANIMATIONS ─────────────────────────────────────────── */
@@ -593,7 +594,7 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0 0 0 3px rgba(176, 64, 64, 0.25);
 }
 
-/* ── Gallery ── CORREÇÃO DEFINITIVA (Sobreposição Estilo Cartões) ── */
+/* ── Gallery ── */
 .experience__gallery {
     display: flex;
     align-items: center;
@@ -790,12 +791,28 @@ img.gallery__img {
 
     .transform__card { padding: 64px 28px; border-radius: var(--r-lg); }
     .transform__list { gap: 12px; }
-    .transform__actions { flex-direction: column; align-items: center; }
+    
+    /* Configuração de botões empilhados em telas menores */
+    .transform__actions { 
+        flex-direction: column; 
+        align-items: stretch; /* Estica os botões horizontalmente */
+        gap: 16px; 
+        width: 100%;
+    }
+    .transform__actions .btn { width: 100%; }
 
     .hero__cta-group { margin-bottom: 48px; }
 }
 
 @media (max-width: 600px) {
+    /* Ajustes refinados no Header Mobile */
+    .header { height: 76px; }
+    .header--scrolled { height: 66px; }
+    .header__logo-link { font-size: 1.3rem; }
+    .header__container { padding-inline: 20px; }
+    /* Botão CTA do Header um pouco menor para não brigar com o logo */
+    .header__cta { padding: 10px 16px; font-size: 0.65rem; letter-spacing: 0.1em; }
+
     .hero { padding-block: 100px 72px; }
     .hero__description { font-size: 1rem; }
 
@@ -807,7 +824,6 @@ img.gallery__img {
     .experience { padding-block: 96px; }
     .experience__top { gap: 40px; margin-bottom: 64px; }
 
-    /* Ajuste fino para a sobreposição de imagens no mobile */
     .experience__gallery {
         height: clamp(340px, 100vw, 460px);
     }
@@ -815,7 +831,6 @@ img.gallery__img {
     .gallery__item--side { flex: 0 0 35%; height: 75%; }
     .gallery__item--center { flex: 0 0 55%; height: 100%; }
     
-    /* Aumenta a margem negativa para manter a proporção da sobreposição */
     .gallery__item--side:first-child { margin-right: -18%; }
     .gallery__item--side:last-child { margin-left: -18%; }
 
